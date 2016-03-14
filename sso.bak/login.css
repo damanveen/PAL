@@ -1,0 +1,90 @@
+#login-box {
+	width: 333px;
+	height: 352px;
+	padding: 58px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: #464647;
+	/*background: url(../images/login-box-backg.png) no-repeat left top;*/
+	
+	/* Center (vertically & horizontally) Aligned Hack */
+	position: absolute;
+	left: 50%;
+	margin-left: -242.5px;
+	top: 50%;
+	margin-top: -205px;
+	border-radius: 15px;
+	
+		
+	
+}
+
+#login-box h2 {				/*login text*/
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+	
+}
+
+#login-box label {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+	font-size: 14px;
+	
+}
+
+#login-box .login-field {
+	float: left;
+	display: inline;
+	width: 230px;
+	margin-bottom: 7px;
+	
+}
+
+#login-box .text-input  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color: #f11313;
+	font-size: 16px;
+	color: #white;
+
+}
+
+#login-box .login-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+	
+}
+
+#login-box .login-options a {
+	color: #464647;
+	font-size: 11px;
+
+}
+
+#login-box .button {
+	padding: 11px 27px;
+	border-radius: 0.42em;
+	-moz-border-radius: 0.42em;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	
+
+	/*background: linear-gradient(top, #518ee2, #427ec7);*/
+	/* WC3 Standard */
+	background: #f11313;
+
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #fff;
+	/*box-shadow: 1px 1px 2px #111;*/
+	cursor: pointer;
+}
